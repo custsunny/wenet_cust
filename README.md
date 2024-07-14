@@ -34,9 +34,9 @@ Modified by wenet-2.0.0，Mainly based on the deployment of libtorch
    apt install -y git cmake wget build-essential vim
    ```
 
-   安装miniconda，然后创建激活环境后`pip install -r [wenet根目录]/requirements.txt`
+   Install miniconda，then creating the activation environment`pip install -r [wenet根目录]/requirements.txt`
 
-   设置vim
+   set up vim
 
    ```shell
    vim /etc/vim/vimrc
