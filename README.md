@@ -20,7 +20,7 @@ Modified by wenet-2.0.0，Mainly based on the deployment of libtorch
    docker exec -it --user root wenet_cust1 /bin/bash
    ```
 
-2. **安装需要的软件包 (可自行换源)**
+2. **Install the required software package ( You can change source by yourself)**
 
    ```shell
    apt update
