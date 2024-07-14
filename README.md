@@ -1,12 +1,12 @@
 # wenet_cust
 
-由wenet-2.0.0修改，以libtorch的部署方式为主
+Modified by wenet-2.0.0，Mainly based on the deployment of libtorch
 
-### docker环境搭建 (libtorch runtime)
+### docker environment construction  (libtorch runtime)
 
-1. **创建并启动一个linux的docker镜像 (可根据自己的实际情况适当修改)**
+1. **	Create and start a linux docker mirror image(Can be modified according to their actual situation)**
 
-   以`ubuntu:20.04`为例
+   Take ubuntu : 20.04 as an example.
 
    ```shell
    docker pull ubuntu:20.04
