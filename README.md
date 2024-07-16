@@ -285,7 +285,7 @@ Modified by wenet-2.0.0，Mainly based on the deployment of libtorch
      002 一二线城市虽然也处于调整中
      ```
 
-     `wav.scp`为音频路径文件，每行的第一项为音频id，第二项为音频路径，中间用空格隔开，示例如下：
+     `wav.scp`is audio path file，The first item of each line is audio id，The second item is the audio path，The middle is separated by spaces. The examples are as follows：
 
      ```
      001 /root/mnt/work/wav_dir/test1.wav
@@ -298,7 +298,7 @@ Modified by wenet-2.0.0，Mainly based on the deployment of libtorch
      --path.sh
      ```
 
-     `path.sh`为环境变量文件，供libtorch runtime环境下语音识别使用，其中`WENET_DIR`需指向wenet根目录，具体内容如下：
+     `path.sh`is an environment variable file，For speech recognition in libtorch runtime environment，Where ' WENET _ DIR ' needs to point to the wenet root directory，The details are as follows：
 
      ```shell
      export WENET_DIR=/root/mnt/wenet_cust-2.2
