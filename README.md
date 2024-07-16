@@ -68,9 +68,9 @@ Modified by wenet-2.0.0，Mainly based on the deployment of libtorch
    tar -zxvf wenet_cust-2.2.tar.gz
    ```
 
-4. **安装libtorch环境 (cmake)**
+4. **Install libtorch environment (cmake)**
 
-   请保证cmake版本大于等于3.14
+   Please ensure that cmake version is greater than or equal to 3.14
 
    ```shell
    cd [wenet根目录]/runtime/libtorch
@@ -92,9 +92,9 @@ Modified by wenet-2.0.0，Mainly based on the deployment of libtorch
 
    - **gpu**
 
-   **首先安装cuda和cudnn，并添加环境变量，具体步骤略**
+   **First install cuda and cudnn, and add environment variables, a brief description of the specific steps**
 
-   然后注意[wenet根目录]/runtime/core/cmake/libtorch.cmake中的**torch版本**、**cuda版本**、下载地址和**hash值**，可自行修改
+   Then notice[wenet root directory]**torch version**、**cuda version**in/runtime/core/cmake/libtorch.cmake、download address and**hash value**，can be modified by yourself
 
    ```
    wenet_cust-2.2对应的torch、libtorch、cuda、cudnn版本：
