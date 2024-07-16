@@ -114,9 +114,9 @@ Modified by wenet-2.0.0，Mainly based on the deployment of libtorch
 
   Note : If you can not download, you can download wget first, and then move to the target directory.
 
-5. **文件准备**
+5. **File preparation**
 
-   可以在本地创建如下目录和文件结构的文件夹：
+   Folders with the following directory and file structure can be created locally：
 
    ```
    work
@@ -143,7 +143,7 @@ Modified by wenet-2.0.0，Mainly based on the deployment of libtorch
    --path.sh
    ```
 
-   **文件说明：**
+   **Filespec：**
 
    - [ ] **`make_graph`**
 
