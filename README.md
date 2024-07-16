@@ -205,11 +205,11 @@ Modified by wenet-2.0.0，Mainly based on the deployment of libtorch
      三 35
      ```
 
-     第一列为建模单元，中文端到端语音识别一般以字为建模单元，第二列为建模单元序号。`<blank>`表示空，`<unk>`表示未在字表中的字，最后一个`<sos/eos>`表示开始或结束，其余的都为普通的字或字符。
+    The first column is modeling unit，Chinese end-to-end speech recognition generally uses words as modeling units，The second column is the modeling unit serial number。`<blank>`represents empty,，`<unk>`represents a word that is not in the list，The last one`<sos/eos>`represents the beginning or end，The rest are ordinary words or characters。
 
    - `lexicon.txt`
 
-     `lexicon.txt`是一个由词到字的文件，**当**`lm.apra`**是基于词的语言模型时**，`lexicon.txt`的第一列是所有的词，第二列到最后一列是这些词对应的那些字，示例内容如下：
+     `lexicon.txt`is a file from word to character，**When**`lm.apra`**is a word-based language model**，the first column of' lexicon.txt' is all words，The second to the last column are the characters that correspond to these words，The examples are as follows：
 
      ```
      啊 啊
