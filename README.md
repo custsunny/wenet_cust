@@ -156,11 +156,11 @@ Modified by wenet-2.0.0，Mainly based on the deployment of libtorch
    ------units.txt
    ```
 
-   `make_graph`下存放用于构图的文件，用于**语言模型的添加**，包括语言模型`make_graph/lm/lm.apra`、词到字的文件`make_graph/dict/lexicon.txt`和建模单元文件`make_graph/dict/units.txt`
+   `make_graph`stores files for composition，for**adding language models**，includes language models`make_graph/lm/lm.apra`、Word to character file`make_graph/dict/lexicon.txt`and modeling unit file`make_graph/dict/units.txt`
 
    - `lm.apra`
 
-     `lm.apra`是一个关于词或字的n-gram语言模型，其名称必须为lm.arpa
+     `lm.apra` is an n-gram language model about words or characters， Its name must be lm.arpa
 
    - `units.txt`
 
