@@ -229,7 +229,7 @@ Modified by wenet-2.0.0，Mainly based on the deployment of libtorch
      阿扎尔 阿 扎 尔
      ```
 
-     **当**`lm.apra`**是基于字的语言模型时**，可以把字当作词，用`units.txt`中的所有的字作为`lexicon.txt`中的第一列和第二列的内容(`<blank>`、`<unk>`、`<sos/eos>`除外)，`lexicon.txt`的示例内容如下：
+     **When**`lm.apra`**is a word-based language model**，characters can be regarded as words，use all the words in `units.txt` as the contents of the first and second columns in `lexicon.txt`(except for`<blank>`、`<unk>`、`<sos/eos>`)，The example of `lexicon.txt`is as follows：
 
      ```
      乒 乒
