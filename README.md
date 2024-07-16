@@ -112,7 +112,7 @@ Modified by wenet-2.0.0，Mainly based on the deployment of libtorch
    cmake --build . --config Release
    ```
 
-   注：遇到无法下载的可先wget下载，然后移到目标目录
+  Note : If you can not download, you can download wget first, and then move to the target directory.
 
 5. **文件准备**
 
