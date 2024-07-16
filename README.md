@@ -42,7 +42,7 @@ Modified by wenet-2.0.0，Mainly based on the deployment of libtorch
    vim /etc/vim/vimrc
    ```
 
-   添加以下内容并保存退出
+   Add the following and save the exit
 
    ```shell
    set fileencodings=utf-8,ucs-bom,gb18030,gbk,gb2312,cp936
@@ -50,7 +50,7 @@ Modified by wenet-2.0.0，Mainly based on the deployment of libtorch
    set encoding=utf-8
    ```
 
-   在用户配置文件~/.bashrc末尾添加以下内容以支持中文
+ Add the following content at the end of the user configuration file ~ /.bashrc to support Chinese
 
    ```shell
    export LANG="C.UTF-8"
