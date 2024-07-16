@@ -34,7 +34,7 @@ Modified by wenet-2.0.0，Mainly based on the deployment of libtorch
    apt install -y git cmake wget build-essential vim
    ```
 
-   Install miniconda，then creating the activation environment`pip install -r [wenet根目录]/requirements.txt`
+   Install miniconda，then creating the activation environment`pip install -r [wenet root directory ]/requirements.txt`
 
    set up vim
 
@@ -73,7 +73,7 @@ Modified by wenet-2.0.0，Mainly based on the deployment of libtorch
    Please ensure that cmake version is greater than or equal to 3.14
 
    ```shell
-   cd [wenet根目录]/runtime/libtorch
+   cd [wenet root directory]/runtime/libtorch
    ```
 
    ```shell
@@ -97,7 +97,7 @@ Modified by wenet-2.0.0，Mainly based on the deployment of libtorch
    Then notice[wenet root directory]**torch version**、**cuda version**in/runtime/core/cmake/libtorch.cmake、download address and**hash value**，can be modified by yourself
 
    ```
-   wenet_cust-2.2对应的torch、libtorch、cuda、cudnn版本：
+   wenet_cust-2.2 correspondence torch、libtorch、cuda、cudnn version：
    torch 1.9.0+cu113 - 1.11.0+cu113
    libtorch 1.11.0+cu113
    cuda 11.3
