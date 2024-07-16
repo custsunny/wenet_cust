@@ -58,11 +58,11 @@ Modified by wenet-2.0.0，Mainly based on the deployment of libtorch
    export LC_ALL="C.UTF-8"
    ```
 
-3. **获取wenet代码**
+3. **Get wenet code**
 
-   当前目录：/root/mnt
+   Current directory：/root/mnt
 
-   解压wenet_cust-2.2.tar.gz
+   Decompression wenet_cust-2.2.tar.gz
 
    ```shell
    tar -zxvf wenet_cust-2.2.tar.gz
