@@ -344,13 +344,13 @@ Modified by wenet-2.0.0，Mainly based on the deployment of libtorch
    . ./path.sh
    ```
 
-   识别单个音频
+   Identify a single audio
 
    ```shell
    decoder_main --ctc_weight 0.5 --reverse_weight 0.0 --chunk_size -1 --unit_path model_dir/units.txt --model_path model_dir/final.zip --wav_path wav_dir/test.wav
    ```
 
-   - 识别多个音频(多线程)
+   - Identify multiple audios(multithread)
 
    ```shell
    ./tools/decode.sh --nj 4 --ctc_weight 0.5 --reverse_weight 0.0 --chunk_size -1 wav_dir/wav.scp wav_dir/text model_dir/final.zip model_dir/units.txt result_without_lm
