@@ -335,9 +335,9 @@ Modified by wenet-2.0.0，Mainly based on the deployment of libtorch
    chown root -R /root/mnt
    ```
 
-7. **无语言模型情况下的识别[非流式]**
+7. **Recognition without language model[Non-streaming]**
 
-   激活环境变量
+   Activate environment variables
 
    ```shell
    cd /root/mnt/work
