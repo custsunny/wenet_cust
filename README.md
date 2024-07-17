@@ -429,7 +429,7 @@ Modified by wenet-2.0.0，Mainly based on the deployment of libtorch
    ./tools/decode.sh --nj 4  --acoustic_scale 4.0 --ctc_weight 0.5 --reverse_weight 0.0 --chunk_size -1 --rescoring_weight 0.5 --beam 15.0 --lattice_beam 4.0 --max_active 7000 --blank_skip_thresh 0.98 --fst_path make_graph/lang/TLG.fst --dict_path make_graph/lang/words.txt wav_dir/wav.scp wav_dir/text model_dir/final.zip model_dir/units.txt result
    ```
 
-   `nj`为线程数，
+   `nj`is the number of threads，
 
    `wav_dir/wav.scp`为音频列表文件，
 
