@@ -443,7 +443,7 @@ Modified by wenet-2.0.0，Mainly based on the deployment of libtorch
 
    - **加基于词的语言模型**
 
-   View the prepared ' lexicon.txt '，建议使用语言模型中所有的词作为`lexicon.txt`第一列所有的词，`lexicon.txt`示例如下：
+   View the prepared ' lexicon.txt '，it is recommended to use all words in the language model as all words in the first column of ' lexicon.txt '.，`lexicon.txt`示例如下：
 
    ```
    啊 啊
