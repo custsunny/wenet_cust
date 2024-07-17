@@ -415,8 +415,7 @@ Modified by wenet-2.0.0，Mainly based on the deployment of libtorch
    ./tools/fst/make_tlg.sh make_graph/lm make_graph/lang_temp/ make_graph/lang
    ```
 
-   使用`TLG.fst`进行加语言模型的语音识别
-
+   Using ' TLG.fst ' for speech recognition with language model
    - 识别单个音频
 
    ```shell
