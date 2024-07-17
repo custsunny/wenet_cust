@@ -307,10 +307,9 @@ Modified by wenet-2.0.0，Mainly based on the deployment of libtorch
      export PATH=$PWD:${BUILD_DIR}/bin:${BUILD_DIR}/kaldi:${OPENFST_PREFIX_DIR}/bin:$PATH
      ```
 
-6. **将包含了以上内容的work文件夹放入docker容器中，目录为/root/mnt/work）**
+6. **Put the work folder that contains the above into the docker container，directory is/root/mnt/work）**
 
-   将`wenet_cust-2.2`下的`tools`和`mytools`放入`/root/mnt/work`目录
-
+   Put ' tools ' and ' mytools ' under ' wenet _ cust-2.2 ' in the ' / root / mnt / work ' directory
    ```shell
    cd /root/mnt/work
    ```
