@@ -384,7 +384,7 @@ Modified by wenet-2.0.0，Mainly based on the deployment of libtorch
    sed -n '3,21066p' units.txt | awk -F ' ' '{print $1,$1}' > lexicon.txt
    ```
 
-   如前文所述，此时`lexicon.txt`示例如下
+  As mentioned above，此时`lexicon.txt`示例如下
 
    ```
    乒 乒
