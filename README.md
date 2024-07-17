@@ -473,7 +473,7 @@ Modified by wenet-2.0.0，Mainly based on the deployment of libtorch
    python3 mytools/remove_oov_in_lexicon.py --units_path model_dir/units.txt --lexicon_path make_graph/dict/lexicon_backup.txt --new_lexicon_path make_graph/dict/lexicon.txt
    ```
 
-   After obtaining the ' lexicon.txt ' that meets the requirements，下面的步骤与加基于字的语言模型一样
+   After obtaining the ' lexicon.txt ' that meets the requirements，the following steps are the same as adding a word-based language model
 
    根据`units.txt`和`lexicon.txt`构建`T.fst`和`L.fst`
 
