@@ -463,7 +463,7 @@ Modified by wenet-2.0.0，Mainly based on the deployment of libtorch
    阿扎尔 阿 扎 尔
    ```
 
-   使用`mytools/remove_oov_in_lexicon.py`去除`lexicon.txt`中含 ”超纲字“ 的词及其对应的字，“超纲字”指`units.txt`中没有的字
+   Use`mytools/remove_oov_in_lexicon.py`去除`lexicon.txt`中含 ”超纲字“ 的词及其对应的字，“超纲字”指`units.txt`中没有的字
 
    ```
    mv make_graph/dict/lexicon.txt make_graph/dict/lexicon_backup.txt
