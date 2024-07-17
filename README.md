@@ -322,13 +322,13 @@ Modified by wenet-2.0.0，Mainly based on the deployment of libtorch
    cp -r /root/mnt/wenet_cust-2.2/mytools .
    ```
 
-   赋予权限
+   Give authority
 
    ```shell
    chmod 775 -R /root/mnt
    ```
 
-   转换所属组和所属人
+   Convert a group and a person
 
    ```shell
    chgrp root -R /root/mnt
