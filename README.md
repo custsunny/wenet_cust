@@ -356,9 +356,9 @@ Modified by wenet-2.0.0，Mainly based on the deployment of libtorch
    ./tools/decode.sh --nj 4 --ctc_weight 0.5 --reverse_weight 0.0 --chunk_size -1 wav_dir/wav.scp wav_dir/text model_dir/final.zip model_dir/units.txt result_without_lm
    ```
 
-8. **加语言模型情况下的识别[非流式]**
+8. **Recognition in the case of adding language model[Non-streaming]**
 
-   wenet的语言模型说明详见`[wenet根目录]/docs/lm/lm.md`，下图为`T.fst、L.fst、G.fst`的简要说明
+   The language model of wenet is described in detail`[wenet root directory]/docs/lm/lm.md`，The following is a brief description of ' T.fst, L.fst, G.fst '
 
    ![TLG](E:\语音识别学习\wenet_cust\docs\images\TLG.png)
 
