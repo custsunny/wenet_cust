@@ -362,9 +362,9 @@ Modified by wenet-2.0.0，Mainly based on the deployment of libtorch
 
    ![TLG](E:\语音识别学习\wenet_cust\docs\images\TLG.png)
 
-   - **加基于字的语言模型**
+   - **Plus word-based language model**
 
-   使用如下命令，根据`units.txt`，生成`lexicon.txt`，**如果已经有`lexicon.txt`则忽略**
+  Use the following command，according to`units.txt`，generate`lexicon.txt`，**If there is already ' lexicon.txt ' then ignore**
 
    ```shell
    cd /root/mnt/work/make_graph/dict
