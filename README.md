@@ -431,9 +431,9 @@ Modified by wenet-2.0.0，Mainly based on the deployment of libtorch
 
    `nj`is the number of threads，
 
-   `wav_dir/wav.scp`为音频列表文件，
+   `wav_dir/wav.scp` is an audio list file，
 
-   `wav_dir/text`为标签文件，如果不需要计算字错率或没有标签文件，只需要指定一个存在的空文件即可。
+   `wav_dir/text`is label file，if there is no need to calculate word error rate or no label file，it only needs to specify an existing empty file.。
 
    `model_dir/units.txt`为建模单元文件，其与`make_graph/dict/units.txt`一致。
 
