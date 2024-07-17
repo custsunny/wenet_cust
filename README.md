@@ -435,7 +435,7 @@ Modified by wenet-2.0.0，Mainly based on the deployment of libtorch
 
    `wav_dir/text`is label file，if there is no need to calculate word error rate or no label file，it only needs to specify an existing empty file.。
 
-   `model_dir/units.txt`为建模单元文件，其与`make_graph/dict/units.txt`一致。
+   `model_dir/units.txt`is the modeling unit file，consistent with ' make _ graph / dict / units.txt '。
 
    `make_graph/lang/TLG.fst`为构图得到的WFST图，`make_graph/lang/words.txt`为该`TLG.fst`对应的词典，是由`tools/fst/make_tlg.sh`生成的。
 
