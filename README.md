@@ -399,7 +399,7 @@ Modified by wenet-2.0.0，Mainly based on the deployment of libtorch
    也 也
    ```
 
-   According to`units.txt`和`lexicon.txt`构建`T.fst`和`L.fst`
+   According to`units.txt`and `lexicon.txt`construct`T.fst`和`L.fst`
 
    ```shell
    cd /root/mnt/work/
